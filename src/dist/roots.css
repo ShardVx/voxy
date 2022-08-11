@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url('../fonts/Metropolis-SemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url('../fonts/Metropolis-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Thin';
+  src: url('../fonts/Metropolis-Thin.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('../fonts/Metropolis-Bold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  
+  --M-SM: Metropolis-SemiBold;
+  --M-B: Metropolis-Bold;
+  --M-M: Metropolis-Medium;
+  --M-T: Metropolis-Thin;
+  
+}

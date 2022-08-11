@@ -1,0 +1,88 @@
+@import url("roots.css");
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+body {
+  font-family: var(--M-M);
+  height: 100%;
+}
+
+h1.name {
+  font-size: 30px;
+  font-family: var(--M-B);
+}
+
+p.tag {
+  font-family: var(--M-T);
+  margin-bottom: 5px;
+}
+
+div.pf-wrapper {
+  background: #1A1A1A;
+  height: 200px;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) !important;
+}
+
+.slice-div {
+  background-color: transparent;
+  position: relative;
+  height: 10px;
+  border: none;
+  z-index: 1;
+  bottom: 5px;
+}
+
+img.pfp {
+  bottom: 50px;
+  position: relative;
+  border: 2px solid #1A1A1A;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) !important;
+}
+
+div.info-wrapper {
+  margin-top: 70px;
+}
+
+div.buttons {
+  margin-top: 70px;
+  flex: 1 0 auto;
+}
+
+/** Cards **/
+
+div.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+}
+
+img.flat-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+  top: -30px;
+  border-radius: 59px;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+}
+
+h3.title {
+  position: relative;
+  bottom: 20px;
+  font-family: var(--M-SM);
+}
+
+/** Footer **/
+footer.foot {
+  bottom: 0;
+  position: relative;
+}
+
+/** Effects **/
+a.cardlink {
+  text-decoration: none;
+}
