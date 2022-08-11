@@ -73,7 +73,7 @@ img.flat-icon {
 h3.title {
   position: relative;
   bottom: 20px;
-  font-family: var(--M-SM);
+  font-family: var(--M-M);
 }
 
 /** Footer **/
