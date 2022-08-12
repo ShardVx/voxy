@@ -1,0 +1,27 @@
+@import url('../roots.css');
+
+div.pf-wrapper {
+  background: #1A1A1A;
+  height: 200px;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) !important;
+}
+
+.slice-div {
+  background-color: transparent;
+  position: relative;
+  height: 10px;
+  border: none;
+  z-index: 1;
+  bottom: 5px;
+}
+
+img.pfp {
+  bottom: 50px;
+  position: relative;
+  border: 2px solid #1A1A1A;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) !important;
+}
+
+div.info-wrapper {
+  margin-top: 70px;
+}

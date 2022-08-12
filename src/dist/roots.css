@@ -1,3 +1,10 @@
+/** Required **/
+@import url('./components/profile.card.css');
+@import url('./components/about.me.css');
+@import url('./components/effects.css');
+@import url('./components/footer.css');
+@import url('./components/card.css');
+
 @font-face {
   font-family: 'Metropolis-SemiBold';
   src: url('../fonts/Metropolis-SemiBold.otf');

@@ -1,0 +1,9 @@
+@import url('../roots.css');
+
+div.about-me {
+  margin-top: 70px;
+}
+
+p.paragraph {
+  font-family: var(--M-T);
+}

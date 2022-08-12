@@ -1,0 +1,35 @@
+@import url('../roots.css');
+
+div.buttons {
+  margin-top: 70px;
+  flex: 1 0 auto;
+}
+
+
+div.card {
+  padding: 20px;
+  border-radius: 5px;
+  border: none !important;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+}
+
+img.flat-icon {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+  top: -40px;
+  z-index: 20;
+  border-radius: 59px;
+  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+}
+
+h3.title {
+  position: relative;
+  bottom: 20px;
+  font-family: var(--M-M);
+}
+
+div.info-text-wrapper {
+  margin-bottom: 20px;
+}
