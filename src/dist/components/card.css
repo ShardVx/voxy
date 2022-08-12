@@ -21,7 +21,8 @@ img.flat-icon {
   top: -40px;
   z-index: 20;
   border-radius: 59px;
-  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+  box-shadow:0 14px 30px -5px rgba(0,0,0,.13);
+  /** box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) **/;
 }
 
 h3.title {

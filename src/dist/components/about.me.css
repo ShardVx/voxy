@@ -4,6 +4,11 @@ div.about-me {
   margin-top: 70px;
 }
 
+h1.about-title {
+  font-size: 30px;
+}
+
 p.paragraph {
   font-family: var(--M-T);
+  font-size: 15px;
 }
