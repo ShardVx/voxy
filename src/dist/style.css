@@ -9,17 +9,20 @@ html {
 body {
   font-family: var(--M-M);
   height: 100%;
+  background: #f4f4f4;
 }
 
 h1.name {
   font-size: 30px;
-  font-family: var(--M-B);
+  font-family: var(--M-M);
 }
 
 p.tag {
   font-family: var(--M-T);
   margin-bottom: 5px;
 }
+
+/** Profile Card **/
 
 div.pf-wrapper {
   background: #1A1A1A;
@@ -47,16 +50,18 @@ div.info-wrapper {
   margin-top: 70px;
 }
 
+/** Cards **/
+
 div.buttons {
   margin-top: 70px;
   flex: 1 0 auto;
 }
 
-/** Cards **/
 
 div.card {
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: none !important;
   box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
 }
 
@@ -65,7 +70,7 @@ img.flat-icon {
   height: 60px;
   width: 60px;
   margin-bottom: 10px;
-  top: -30px;
+  top: -40px;
   z-index: 20;
   border-radius: 59px;
   box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
@@ -77,6 +82,10 @@ h3.title {
   font-family: var(--M-M);
 }
 
+div.info-text-wrapper {
+  margin-bottom: 20px;
+}
+
 /** Footer **/
 footer.foot {
   bottom: 0;
@@ -86,4 +95,19 @@ footer.foot {
 /** Effects **/
 a.cardlink {
   text-decoration: none;
+}
+
+img.link-arrows {
+  height: 10px;
+  width: 10px;
+}
+
+/** About Me **/
+
+div.about-me {
+  margin-top: 70px;
+}
+
+p.paragraph {
+  font-family: var(--M-T);
 }
