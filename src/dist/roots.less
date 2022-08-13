@@ -4,40 +4,29 @@
 @import url('./components/footer.less');
 @import url('./components/card.less');
 @import url('./components/effects.less');
+@import url('./components/modal.less');
+@import url('./font.import.less');
 
-@font-face {
-  font-family: 'Metropolis-SemiBold';
-  src: url('../fonts/Metropolis-SemiBold.otf');
-  font-weight: 600;
-  font-style: normal;
-}
+/** Variables : Color **/
+@background: #ffffff;
+@secondary: #1A1A1A;
+@third-color: #F4F4F4;
 
-@font-face {
-  font-family: 'Metropolis-Medium';
-  src: url('../fonts/Metropolis-Medium.otf');
-  font-weight: 500;
-  font-style: normal;
-}
+/** Variables : Shadows **/
+@shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+@shadow2: 0 14px 30px -5px rgba(0,0,0,.13);
 
-@font-face {
-  font-family: 'Metropolis-Thin';
-  src: url('../fonts/Metropolis-Thin.otf');
-  font-weight: 400;
-  font-style: normal;
-}
+/** Variables : Fonts **/
+@M-Bold: Metropolis-Bold;
+@M-Semi: Metropolis-SemiBold;
+@M-Medium: Metropolis-Medium;
+@M-Thin: Metropolis-Thin;
 
-@font-face {
-  font-family: 'Metropolis-Bold';
-  src: url('../fonts/Metropolis-Bold.otf');
-  font-weight: 700;
-  font-style: normal;
-}
+/** Variables : Border/Border-Radius **/
+@Card-Radius: 5px;
 
-:root {
-  
-  --M-SM: Metropolis-SemiBold;
-  --M-B: Metropolis-Bold;
-  --M-M: Metropolis-Medium;
-  --M-T: Metropolis-Thin;
-  
-}
+/** Variables : Margins **/
+@Card-Button-MT: 70px;
+
+/** Variables : Flex **/
+@flex: 1 0 auto;

@@ -1,16 +1,17 @@
 @import url('../roots.less');
 
 div.buttons {
-  margin-top: 70px;
-  flex: 1 0 auto;
+  margin-top: @Card-Button-MT;
+  flex: @flex;
+  z-index: 1;
 }
-
 
 div.card {
   padding: 20px;
-  border-radius: 5px;
+  border-radius: @Card-Radius;
   border: none !important;
-  box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65);
+  box-shadow: @shadow;
+  z-index: 1;
 }
 
 img.flat-icon {
@@ -21,16 +22,18 @@ img.flat-icon {
   top: -40px;
   z-index: 20;
   border-radius: 59px;
-  box-shadow:0 14px 30px -5px rgba(0,0,0,.13);
-  /** box-shadow: 0 8px 14px -4px rgba(80, 80, 80, 0.65) **/;
+  box-shadow: @shadow2;
+  z-index: 1;
 }
 
 h3.title {
   position: relative;
   bottom: 20px;
-  font-family: var(--M-M);
+  font-family: @M-Medium;
+  z-index: 1;
 }
 
 div.info-text-wrapper {
   margin-bottom: 20px;
+  z-index: 1;
 }

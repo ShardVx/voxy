@@ -1,9 +1,13 @@
+@import url('../roots.less');
+
 a.cardlink {
   text-decoration: none;
+  z-index: 1;
 }
 
 .arrow {
-  background-color: #ffffff;
+  background-color: @background;
+  z-index: 1;
 
   &::after {
     display: inline-block;
@@ -17,7 +21,7 @@ a.cardlink {
   }
 
   &:hover {
-    background-color: #ffffff;
+    background-color: @background;
     
     &::after {
       -webkit-transform: translateX(5px);

@@ -9,7 +9,7 @@ html {
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #1A1A1A #F4F4F4;
+  scrollbar-color: @secondary @third-color;
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -20,30 +20,32 @@ html {
 }
 
 *::-webkit-scrollbar-track {
-  background: #f4f4f4;
+  background: @secondary;
   padding: 0;
   margin: 0;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #1A1A1A;
+  background-color: @third-color;
   padding: 0;
   margin: 0;
 }
 
 body {
-  font-family: var(--M-M);
   height: 100%;
-  background: #f4f4f4;
+  background: @third-color;
+  font-family: @M-Medium;
 }
 
-h1.name {
+.name {
   font-size: 30px;
-  font-family: var(--M-M);
+  font-family: @M-Medium;
+  z-index: 1;
 }
 
-p.tag {
-  font-family: var(--M-T);
-  font-size: 18px;
+.tag-badge {
+  font-family: @M-Thin;
+  font-size: 15px;
   margin-bottom: 5px;
+  z-index: 1;
 }
